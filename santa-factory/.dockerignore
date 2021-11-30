@@ -1,0 +1,14 @@
+# Challenge specific files
+dist/
+src/
+assembler.py
+
+
+# Docker files
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Build files
+Makefile
+.gitignore

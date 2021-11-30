@@ -1,0 +1,20 @@
+name: "{{recovery}}"
+author: "cat.wav"
+category: crypto
+description: Encrypted blockchain wallet private key agile backup recovery strategy
+value: 1
+type: standard
+
+flags:
+    - flag{M4g1c-1nt3rnet-m0n3y}
+
+tags:
+    - crypto
+
+files:
+    - lore.txt
+    - "Sauvegarde des clefs privées de Bitcoin Wallet~"
+
+state: visible
+
+version: "0.1"

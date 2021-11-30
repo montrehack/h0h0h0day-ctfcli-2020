@@ -1,0 +1,55 @@
+# This file represents the base specification of your challenge. It is used by
+# other tools to install and deploy your challenge.
+
+# Required sections
+name: "A Strange spellbook"
+author: "Nodral"
+category: "Hero of Dundee Track"
+description: |
+    Dundonian, we desesperatly need you
+
+    Our scouts just told us that Zargothrax is planning an attack on our beautiful town.
+    We are trying to gather as much soldiers as possible. Time has come to raise our defenses. 
+
+    I can't be by your side right now, as I need to find the Amulet of Justice, and the mighty Hammer Of Glory, if we want to stand a chance...
+
+    Good news is, Zargothrax minions might be more stupid than we thought: one of them was captured, with a book containing informations. It looked like some kind of magic spell. One of my lieutenant suggested you might be helpful with this.
+
+    ```
+    minion stands for my username
+    on my device, a secure shell you'll open
+    to port 31625, you shall be connected
+    by entering myEvilPass when prompted
+    ```
+
+    Good luck !
+
+    Angus McFife
+
+    Challenge server: challenges.montrehack.ca
+
+value: 1
+type: standard
+
+# Flags specify answers that your challenge use. You should generally provide
+# at least one.
+# Can be removed if unused
+# Accepts strings or dictionaries
+flags:
+    - FLAG-{Th@t$AG0od$t@rt}
+
+# Tags are used to classify your challenge with topics. You should provide at
+# least one.
+# Can be removed if unused
+# Accepts strings
+tags:
+    - linux
+    - forensics
+
+# The state of the challenge.
+# This is visible by default. It takes two values: hidden, visible.
+state: visible
+
+# Specifies what version of the challenge specification was used.
+# Subject to change until ctfcli v1.0.0
+version: "0.1"

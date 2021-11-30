@@ -1,0 +1,19 @@
+{application, hohoho,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {hohoho_app, []}},
+  {applications,
+   [kernel,
+    ssh,
+    recon,
+    stdlib,
+    cowboy,
+    jsone
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.

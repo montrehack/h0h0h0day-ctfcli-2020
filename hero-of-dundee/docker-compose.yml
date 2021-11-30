@@ -1,0 +1,19 @@
+version: '3'
+services:
+  part0:
+    build: ./part0
+    ports:
+      - '31625:22'
+  part1:
+    build: ./part1
+    ports:
+      - '31080:80'
+    volumes:
+      - ./part1/src:/var/www/html
+      - ./part1/db:/var/www/db
+  part2:
+      build: ./part2
+      ports:
+        - '27777:27777'
+      stdin_open: true
+      tty: true

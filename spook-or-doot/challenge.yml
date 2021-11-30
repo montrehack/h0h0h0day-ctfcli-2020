@@ -1,0 +1,12 @@
+name: "spook || doot"
+author: "becojo"
+description: "http://challenges.montrehack.ca:10001"
+category: appsec
+tags:
+  - web
+image: .
+value: 1
+flags:
+  - FLAG-558c00ece57a6b20f3d95ab8cb20aa2a
+version: "0.1"
+

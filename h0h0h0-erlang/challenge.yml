@@ -1,0 +1,21 @@
+name: "Hohoho erlang"
+author: "gdenhez, omegab"
+category: appsec
+description: |
+    A website that allow text transformation. We used an erlang backend to be able to debug it easily in production.
+
+    http://challenges.montrehack.ca:8080/
+value: 1
+type: standard
+
+image: null
+
+flags:
+    - FLAG-70328b0cdf44952ca1feb9f83b32fa88
+
+tags:
+    - web
+
+version: "0.1"
+
+

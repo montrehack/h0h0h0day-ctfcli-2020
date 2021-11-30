@@ -1,0 +1,52 @@
+# Required sections
+name: "Santa's Factory (Part 2)"
+author: "alxbl"
+category: reverse
+description: |
+    You've found the secret factory where all the gifts are created.
+    Can you find the  secret word and enter the factory?
+
+    Think of all the gifts you could build yourself...
+
+    **Server:** `nc challenges.montrehack.ca 3333`
+value: 3
+type: standard
+image: .
+
+# Flags specify answers that your challenge use. You should generally provide
+# at least one.
+# Can be removed if unused
+# Accepts strings or dictionaries
+flags:
+    - FLAG-45BZUM2xdDkeZX88YOgSlefHjLDJV9gx
+
+# Tags are used to classify your challenge with topics. You should provide at
+# least one.
+# Can be removed if unused
+# Accepts strings
+tags:
+    - reverse
+    - pwn
+
+# Provide paths to files from the same directory that this file is in
+files:
+    - dist/santa-factory
+
+
+hints:
+    - This time you'll have to dig deeper
+
+# Requirements are used to make a challenge require another challenge to be
+# solved before being available.
+# Can be removed if unused
+# Accepts challenge names as strings or challenge IDs as integers
+requirements:
+    - "Santa's Factory (Part 1)"
+
+# The state of the challenge.
+# This is visible by default. It takes two values: hidden, visible.
+state: visible
+
+# Specifies what version of the challenge specification was used.
+# Subject to change until ctfcli v1.0.0
+version: "0.1"

@@ -1,0 +1,32 @@
+name: "g0h0h0pher"
+author: "Barberousse"
+category: reverse
+description: |
+  We found this executable along with a picture of a Gopher in a Santa hat. It's a dropper for another executable that was compiled with the same flags and versions.
+
+  We have to enter a password to get it to decrypt the payload. Please help us figure out the password!
+
+  **The flag for this challenge is the password you need to enter to get the decrypted payload.** It only contains characters from this set: `[A-Za-z0-9_]`.
+
+  _The hint that costs 1 contains a link to the original source code for_ `main.deriveKey`
+value: 2
+type: standard
+
+flags:
+  - CZwf4P_fUnW17hG0l4ngEmb3dd3dBins
+
+tags:
+  - reverse
+  - golang
+
+files:
+  - bin/g0h0h0pher
+
+hints:
+  - "Since the embedded executable was compiled identically to the challenge executable, they should have the same headers except for the entry point address."
+  - {
+    content: "[Some source code](https://drive.google.com/file/d/1x1FnTTpEZoOqUcn6c2Lk8bqMesnMv0sw/view)",
+    cost: 1
+  }
+
+version: "0.1"

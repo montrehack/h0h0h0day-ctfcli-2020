@@ -1,0 +1,18 @@
+name: "Gift as a Service Part 2/2"
+author: "RingZer0 Team"
+category: reverse
+description: "Go to http://challenges.ringzer0team.com:10346/"
+value: 1
+type: standard
+
+flags:
+    - FLAG-7af569dd25c74ae6b12aa3feeaab861a
+
+tags:
+    - reverse
+
+requirements:
+    - "Gift as a Service Part 1/2"
+
+state: visible
+version: "0.1"

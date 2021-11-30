@@ -1,0 +1,19 @@
+name: "BorealeTheta"
+author: "svieg (Hugo Genesse)"
+category: appsec
+description: |
+    The Cloud is pretty cool but do you really want to do DevOps? Just give us a URL and we’ll give you the result! Go on your [Boreale console](http://neonwe.studio:5000) to access this neat feature! Since this is still in early stages, [here](https://neonwe.studio/ui.py) is this source of the Theta server if you want to debug. Docs are still in writing... 
+value: 2
+type: standard
+
+flags:
+    - "FLAG-{my_b1ll5_0nly_g3t_bigg3r}"
+
+tags:
+    - python
+
+hints:
+    - Google `python pickle`
+
+state: visible
+version: "0.1"

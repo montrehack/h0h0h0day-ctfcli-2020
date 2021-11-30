@@ -1,0 +1,31 @@
+name: "Ho Ho No - Part 1"
+author: "Zuyoutoki"
+category: programming
+description: |
+  Santa decided to take the digital turn and to use the not-so-famous Ho Ho Hoperating System for managing his nice and naughty list. However, he has some difficulties using the system. 
+
+  Can you recover the content of the file `1337`? If his memory is not failing him, it should be where he saved his list. Take the time to look at the End User Manual, it contains a lot of information that can be of use to you.
+
+  * user: h3s 
+  * pass: santa 
+  * hostname: challenges.montrehack.ca
+  * port: 8022
+
+  ```shell
+  ssh h3s@challenges.montrehack.ca -p 8022
+  ```
+
+value: 1
+type: standard
+
+flags:
+  - FLAG-LetsLearnANewLanguageForTheWinterSeason
+
+tags:
+  - programing
+  - esoteric
+
+files:
+  - dist/H3S-End_User_Manual.pdf
+
+version: "0.1"

@@ -1,0 +1,4 @@
+So I started mining for a few weeks a couple years back, kind of forgot about it until recently when I stumbled upon this backup file (see attached), not sure if you can do something with it.
+
+This was before my master password got compromised. For obvious security concerns I asked for it to be removed from the internet but no luck... see this pull if you're curious:
+https://github.com/danielmiessler/SecLists/pull/155

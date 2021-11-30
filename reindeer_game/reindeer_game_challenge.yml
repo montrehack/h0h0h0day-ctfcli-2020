@@ -1,0 +1,41 @@
+name: "Reindeer Game"
+author: "Towel"
+category: reverse
+description: |
+  Ho ho ho, and wouldn't ya know? Santa loves Tic Tac Toe!
+  You can play a match against Santa when he gets done finishing feeding the
+  reindeer. If you win he'll give you a special Christmas present.
+
+  Watch out though, he's very good! It is rumored an elf was able to beat him
+  one time, but no one has managed to repeat the feat.
+
+  Download the binary to practice and build a strategy, then when you're
+  ready to take on Santa you can play him via his North Pole coordinates at
+
+  `nc challenges.ringzer0team.com 10347`
+
+
+value: 4
+type: standard
+
+image: null
+
+flags:
+    - FLAG-Glide_into_AI_Victory_9a3b4af8
+
+tags:
+    - reverse
+    - haskell
+    - tictactoe
+    - AI
+
+
+files:
+    - dist/reindeer_game
+
+hints:
+    - Does Santa play the same way every time?
+
+state: visible
+
+version: "0.1"

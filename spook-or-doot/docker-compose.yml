@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  web:
+    build: .
+    user: www-data
+    ports:
+      - 10001:3000
+    environment:
+      RACK_ENV: production
+      SECRET_KEY_BASE: 9a589d659f0832cf1900e660573b92b5c429455a64bdb18bd1db2e7a66eb630cf

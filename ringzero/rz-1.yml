@@ -1,0 +1,15 @@
+name: "Gift as a Service Part 1/2"
+author: "RingZer0 Team"
+category: appsec
+description: "Go to http://challenges.ringzer0team.com:10345/"
+value: 2
+type: standard
+
+flags:
+    - FLAG-94103323df8b33e0bb6b5c26c7dab40d
+
+tags:
+    - web
+
+state: visible
+version: "0.1"

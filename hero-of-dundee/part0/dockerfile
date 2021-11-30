@@ -1,0 +1,32 @@
+FROM debian:buster
+
+RUN apt-get update
+
+#Installing ssh
+RUN apt install -y openssh-server
+RUN mkdir /var/run/sshd
+
+#SSH user
+RUN useradd minion
+RUN echo 'minion:myEvilPass' | chpasswd
+
+#SSH setup
+RUN sed -i 's/PermitRootLogin prohibit-password/PermitRootLogin no/' /etc/ssh/sshd_config
+RUN sed 's/AllowUsers=/AllowUsers=minion/'
+
+#Installing challenge packages
+RUN apt install -y sudo
+RUN apt install -y vim
+
+#Add other users
+RUN useradd zangdar 
+RUN useradd zargothrax
+RUN sed -i '/%sudo/a minion ALL=(zangdar) NOPASSWD: /usr/bin/vim, !/usr/bin/su\nzangdar  ALL=(zargothrax) NOPASSWD:ALL' /etc/sudoers
+
+#Copy flag
+COPY ./website_eta /home/minion/website_eta
+RUN chown zargothrax:zargothrax /home/minion/website_eta
+RUN chmod 600 /home/minion/website_eta
+
+EXPOSE 22
+CMD ["/usr/sbin/sshd", "-D"]

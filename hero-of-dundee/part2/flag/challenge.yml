@@ -1,0 +1,57 @@
+# This file represents the base specification of your challenge. It is used by
+# other tools to install and deploy your challenge.
+
+# Required sections
+name: "Unicorns !"
+author: "Nodral"
+category: "Hero of Dundee Track"
+description: |
+    Dundonian,
+
+    Well done for getting your hands on the message addressed to Zargothrax !
+    In the meantime, the captured minion as spoken : there seems to be some kind of magic device, that could delay the attack.
+    He told us 
+
+    ```shell
+    on port 27777, you'll find our secret weapon. But it's already too late, you won't be able to stop us now !
+    ```
+
+    If you need help for this one, you can ask our mage, Caesar.
+
+    Angus McFife
+
+    Challenge server: challenges.montrehack.ca
+
+value: 2
+type: standard
+
+# Flags specify answers that your challenge use. You should generally provide
+# at least one.
+# Can be removed if unused
+# Accepts strings or dictionaries
+flags:
+    - FLAG-{Th@t$Th3Fin@lF|@g}
+
+# Tags are used to classify your challenge with topics. You should provide at
+# least one.
+# Can be removed if unused
+# Accepts strings
+tags:
+    - web
+    - sqli
+    - encoding
+
+# Requirements are used to make a challenge require another challenge to be
+# solved before being available.
+# Can be removed if unused
+# Accepts challenge names as strings or challenge IDs as integers
+requirements:
+    - "A Strange spellbook"
+
+# The state of the challenge.
+# This is visible by default. It takes two values: hidden, visible.
+state: visible
+
+# Specifies what version of the challenge specification was used.
+# Subject to change until ctfcli v1.0.0
+version: "0.1"
